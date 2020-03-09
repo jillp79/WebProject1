@@ -52,4 +52,39 @@
 	  a.sociali:hover, a.sociali:focus {
 		color: #b1804a;
 	  }
-	 
+	  
+	 /*nav in the middle*/
+	 nav {
+		text-align: center;
+		margin: 5px 0 0 ;
+		padding: 5px 0;
+		}
+		
+		nav ul{
+		  list-style: none;
+		  margin: 0 2px;
+		  padding: 0;
+		}
+		
+		nav li {
+		   display: inline-block;
+		   padding: 6px 6px;
+		}
+		
+		nav a {
+		  font-weight: normal;
+		  padding: 10px 5px;
+		  font-size: .80em;
+		}
+	
+	/*promobar*/
+	  .promo-bar{
+		display:-webkit-flex;
+		display:flex;
+		-webkit-flex-direction:column;
+		flex-direction:column;
+		-webkit-justify-content:space-around;
+		justify-content:space-around;
+		-webkit-align-items:center;
+		align-items:center;
+	  }
