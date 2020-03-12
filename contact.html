@@ -3,15 +3,9 @@
 
 <head>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -19,22 +13,23 @@
 
     <link rel="shortcut icon" href="img\bunny_icon.png" type="image/png" sizes="32x32">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--My CSS REF  -->
-    <link href="assets\main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets\style.css" rel="stylesheet" type="text/css" media="all" />
     <script src="https://use.fontawesome.com/83ac61cd0f.js" crossorigin="anonymous"></script>
 
     <!-- Header Code -->
     <title>Red Thicket Rabbitry</title>
     <section class="social">
         <ul class="social-set">
-            <li><a class="sociali" href="https://www.instagram.com/RedThicketRabbitry/" target="_blank"
-                    aria-label="Instagram">
-                    <i class="fa fa-instagram fa-fw" title="Instagram"></i></a></li>
-            <li><a class="sociali" href="https://www.facebook.com/RedThicketRabbitry/" target="_blank"
-                    aria-label="Facebook">
-                    <i class="fa fa-facebook-square fa-fw" title="Facebook"></i></a></li>
+            <li>
+                <a class="sociali" href="https://www.instagram.com/RedThicketRabbitry/" target="_blank" aria-label="Instagram">
+                    <i class="fa fa-instagram fa-fw" title="Instagram"></i></a>
+            </li>
+            <li>
+                <a class="sociali" href="https://www.facebook.com/RedThicketRabbitry/" target="_blank" aria-label="Facebook">
+                    <i class="fa fa-facebook-square fa-fw" title="Facebook"></i></a>
+            </li>
         </ul>
     </section>
     <hr>
@@ -59,32 +54,44 @@
                 </div>
             </div>
             <div>
+                <hr>
                 <div>
                     <p>LITTERS COMING SPRING 2020!</p>
                 </div>
+                <hr>
             </div>
         </div>
     </div>
 </head>
 
 <body>
+    <h2>
+        <div class="center">Contact Us</div>
+    </h2>
+    <div class="center">
+        <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/mgeygndo" method="POST">
+            <fieldset id="fs-frm-inputs">
+                <div>
+                    <label for="first-name">First Name</label><br>
+                    <input type="text" name="name" id="first-name" placeholder="First Name" required="true"><br>
+                    <label for="last-name">Last Name</label><br>
+                    <input type="text" name="name" id="last-name" placeholder="Last Name" required="true"><br>
+                    <label for="email-address">Email Address</label><br>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="true"><br>
+                    <label for="telephone">Telephone Number (Optional)</label><br>
+                    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"><br>
+                    <label for="comment">Comments & Questions:</label><br>
+                    <textarea rows="6" name="comment" id="comment" placeholder="Please let Us know." required=""></textarea><br>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Us Form Submission">
+                </div>
+            </fieldset>
+            <input id="fs-btn" type="submit" value="Submit">
+            <p id="status"></p>
+        </form>
 
-    <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-
-        <label for="comment">Comment:</label><br>
-        <textarea id="comment"></textarea><br><br>
-
-        <input type="submit" value="Submit">
-        
-      </form>
-
+    </div>
 </body>
+
+<script src="js\form.js"></script>
+
 </html>
