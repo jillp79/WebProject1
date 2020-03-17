@@ -12,5 +12,8 @@ Future Improvement: Listed also on drawio. These enhancements will fulfill the n
 3. Instagram Image Gallery
 
 More enhancements not listed in drawio
-4. A link listed on each image of rabbits to adopt. This link would link to show a documents, which is a pedigree
+4. A link listed on each image of rabbits to adopt. This link would link to show pedigree documentation
 5. Ecommerce section with affiliate links to Amazon and Chewy. Also a section with products made by Red Thicket Rabbitry
+
+
+Javascript for form submission used from Formspree.io
