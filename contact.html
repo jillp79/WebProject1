@@ -44,9 +44,9 @@
                     <img src="img/RedThicketlogo.png" alt="Red Thicket Rabbitry" class="img-fluid">
                     <nav>
                         <ul>
-                            <li class="name"><a href="index.html">Home</li>
-                            <li class="name"><a href="bunnies_to_adopt.html">Bunnies to Adopt</li>
-                            <li class="name"><a href="contact.html">Contact</li>
+                            <li class="name"><a>href="index.html">Home</a></li>
+                            <li class="name"><a>href="bunnies_to_adopt.html">Bunnies to Adopt</a></li>
+                            <li class="name"><a>href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -62,39 +62,40 @@
     </div>
     <div class="contact-form">
         <div>
-        <form id="fs-frm" accept-charset="utf-8" action="https://formspree.io/mgeygndo" method="POST">
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            <div class="col">
-                <img src="img/bunny_icon.png" alt="Red Thicket Rabbitry" class="img-fluid">
-            </div>
-            <div class="col">
-            <fieldset>
-                <div>
-                    <div>                      
-                        <div class="d-flex flex-row">
-                            <div class="col"><input type="text" name="name" id="first-name" placeholder="First Name" required="true"></div>
-                            <div class="col"><input type="text" name="name" id="last-name" placeholder="Last Name" required="true"></div>
+            <form id="fs-frm" accept-charset="utf-8" action="https://formspree.io/mgeygndo" method="POST">
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <div class="col">
+                    <img src="img/bunny_icon.png" alt="Red Thicket Rabbitry" class="img-fluid">
+                </div>
+                <div class="col">
+                    <fieldset>
+                        <div>
+                            <div>
+                                <div class="d-flex flex-row">
+                                    <div class="col"><input type="text" name="name" id="first-name" placeholder="First Name" required="true"></div>
+                                    <div class="col"><input type="text" name="name" id="last-name" placeholder="Last Name" required="true"></div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <div class="col"><input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="true"></div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <div class="col"><input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"></div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <div class="col text"><textarea name="comment" id="comment" placeholder="Please let Us know." required=""></textarea></div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <div class="col"><input id="fs-btn" type="submit" value="Submit"></div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex flex-row">
-                            <div class="col"><input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="true"></div>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <div class="col" ><input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"></div>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <div class="col text"><textarea name="comment" id="comment" placeholder="Please let Us know." required=""></textarea></div>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <div class="col"><input id="fs-btn" type="submit" value="Submit"></div>
-                        </div>
-                    </div>                                                        
-                </div>      
-                
-            </fieldset>  
-        </div>        
-            <p id="status"></p>
-        </form>
+
+                    </fieldset>
+                </div>
+                <p id="status"></p>
+            </form>
+        </div>
     </div>
-</div>
 </body>
+
 </html>
