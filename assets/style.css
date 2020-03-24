@@ -1,166 +1,197 @@
 
 /*nav in the middle*/
-  nav {
-	text-align: center;
-	margin: 5px 0 0 ;
-	padding: 5px 0;
-	}
-	
-	nav ul{
-	  list-style: none;
-	  margin: 0 2px;
-	  padding: 0;
-	}
-	
-	nav li {
-	   display: inline-block;
-	   padding: 6px 6px;
-	}
-	
-	nav a {
-	  font-weight: normal;
-	  padding: 10px 5px;
-	  font-size: .80em;
-	}
 
-/*promobar*/
-  .promo-bar{
-	display:-webkit-flex;
-	display:flex;
-	-webkit-flex-direction:column;
-	flex-direction:column;
-	-webkit-justify-content:space-around;
-	justify-content:space-around;
-	-webkit-align-items:center;
-	align-items:center;
-  }
-	/*social links*/
-	body{
-		margin: 0;
-		padding: 1% 1%;
-		color: #333;
-		font-family: sans-serif;
-		font-size: 100%;
-	  }
-
-	  ul.social-set {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-			-ms-flex-direction: row;
-				flex-direction: row;
-		-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
-		-webkit-box-pack: center;
-			-ms-flex-pack: center;
-				justify-content: left;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		height: auto;
-		width: auto;
-	  }
-	  ul.social-set li {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: center;
-			-ms-flex-pack: center;
-				justify-content: left;
-		-webkit-box-align: center;
-			-ms-flex-align: center;
-				align-items: center;
-	  }
-	  a.sociali{
-		font-size: 2em;
-		line-height: 1.2em;
-		padding: 1px;
-
-		color: #575756;
-		margin-right: 1px;
-		margin-bottom: 1px !important;
-		padding-bottom: 1px !important;
-	  }
-	  a.sociali:hover, a.sociali:focus {
-		color: #b1804a;
-	  }
-	  /*Breed gallery*/
-	  .gallery{
-		display: flex;
-		width: auto;
-		margin: auto;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	  }
-
-	.gallery-item {
-	  width: 175px;
-	  height: 175px;
-	  margin: 10px;
-	  text-decoration: none;
-	
-	}
-	
-	.gallery-item img {
-	  position: absolute;
-	} 
-
-
-	  /* Text Wrapper */
-	.text-wrapper {
-		position: relative;
-		width: 175px;
-		height: 175px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		color: #fff;
-		opacity: 0;
-	  }
-	  
-	.text-wrapper:hover {
-		transition: all 0.8s ease;
-		background: rgba(0, 0, 0, 0.6);
-		opacity: 1;
-	  }
-	  
-	.name {
-		font-size: 1.5em;
-	  }
-	
-	  .center {
-		text-align: center;
-	  }
-
-
-	  /* figure */
-figure{
-width: -webkit-min-content;
-width: -moz-min-content;
-width: min-content;
-height: -webkit-min-content;
-height: -moz-min-content;
-height: min-content;
-  margin: 8px 0;
-  border: 1px solid #777;
-  padding: 8px;
-  box-sizing: border-box;
-  background-color: #fff;
-}
- figure img{
-	display: flex;
-	width: auto;
-	height: auto;
-	text-align: center;
-	margin: auto;
-}
-figure figcaption{
-  text-align: center;
-  padding: 8px 4px;
+nav {
+    text-align: center;
+    margin: 5px 0 0;
+    padding: 5px 0;
 }
 
-  
-  
+nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 6px 6px;
+}
+
+nav a {
+    font-weight: normal;
+    padding: 10px 5px;
+    font-size: .80em;
+}
+
+.promo-bar {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 1% 1%;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+ul.social-set {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+ul.social-set li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+a.sociali {
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 1px;
+    color: #575756;
+    margin-right: 1px;
+    margin-bottom: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+a.sociali:hover,
+a.sociali:focus {
+    color: #b1804a;
+}
+
+.gallery {
+    display: flex;
+    width: auto;
+    margin: auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.gallery-item img {
+    position: absolute;
+}
+
+.text-wrapper {
+    position: relative;
+    width: 175px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+}
+
+.text-wrapper:hover {
+    transition: all 0.8s ease;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+figure {
+    width: min-content;
+    height: min-content;
+    margin: 8px 0;
+    border: 1px solid #777;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #fff;
+    justify-content: flex-start;
+}
+
+figure img {
+    display: flex;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+figure figcaption {
+    text-align: center;
+    padding: 8px 4px;
+}
+
+a {
+    color: black;
+}
+
+
+/* Contact Form */
+
+.contact-form {
+    background: #f8f8f8;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-form img {
+    display: flex;
+    max-width: 300px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form textarea {
+    flex: 1;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #B6ADB0;
+    display: flex;
+    line-height: 1.2rem;
+    margin: 0 0 .50rem;
+    overflow: auto;
+    padding: .40rem 0 0 .65rem;
+    resize: both;
+    text-align: left;
+    width: 33rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+/* .contact-form button {
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+} */
