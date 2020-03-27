@@ -1,12 +1,14 @@
 User stories
 
 Potential rabbit adopter:
-As a potential rabbit adopter, I want to learn about rabbit care and see rabbits for sale with prices, so that I can make an informed decision on what rabbit I want to purchase.
-
+As a potential rabbit adopter, I want to learn about rabbit care. 
+I want to see rabbits for sale with prices, so that I can make an informed decision on what rabbit I want to purchase.
 
 Rabbit breeder:
-As a rabbit breeder, I want to find information on rabbits available with pricing and pedigrees, so that I can review genetics and breeding of the rabbits before I make a selection to purchase.
-
+As a rabbit breeder, I want to find information on rabbits available.
+I want to see pricing and pedigrees.
+I want to see genetics and breeding of the rabbits before I make a selection to purchase.
 
 Rabbit owner:
-As a rabbit owner, I want to find useful information about rabbit care, proper housing, and nutrition so that I can take proper care of my rabbit.
+As a rabbit owner, I want to find useful information about rabbit care.
+I want to learn about housing and nutrition, so that I can take proper care of my rabbit.
