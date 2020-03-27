@@ -152,7 +152,6 @@ a {
 
 img {
     float: left;
-    padding-right: 30px;
 }
 
 .input-div {
@@ -189,6 +188,20 @@ img {
     margin-right: 8px;
     padding: 4px;
     margin-top: -4px;
+}
+
+.carousel {
+    display: flex;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    left: 0;
+    z-index: 1;
+}
+
+#frm-img {
+    padding-right: 30px;
 }
 
 @media (max-width: 768px) {
